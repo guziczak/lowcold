@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Lowcold</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-placeholder">
+            <img src="logo.png" alt="Logo Lowcold">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Strona Główna</a></li>
+                <li><a href="o-firmie.html">O Firmie</a></li>
+                <li><a href="oferta.html">Oferta</a></li>
+                <li><a href="instrukcje.html">Instrukcje</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <p>LOWCOLD<br>51-218 Wrocław, ul. Jagiellońska 17<br>tel./fax: +48 71 329 78 78<br>tel. kom.: +48 503 807 243</p>
+            <p>Biuro: <a href="mailto:office@lowcold.pl">office@lowcold.pl</a><br>Serwis: <a href="mailto:serwis@lowcold.pl">serwis@lowcold.pl</a></p>
+            <form action="#" method="post">
+                <label for="name">Imię i nazwisko:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail zwrotny:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Temat wiadomości:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Treść wiadomości:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lowcold. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
